@@ -7,6 +7,8 @@ class Video(models.Model):
     VIDEO_TYPES = [
         ('MUSIC', 'Music'),
         ('ANIME', 'Anime'),
+        ('GAME', 'Game'),
+        ('OTHER', 'Other'),
     ]
     title = models.CharField(max_length=200)
     description = models.TextField()
